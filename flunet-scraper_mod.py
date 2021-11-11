@@ -1,3 +1,11 @@
+# Install a pip package in the current Jupyter kernel
+import sys
+!{sys.executable} -m pip install beautifulsoup4 
+!{sys.executable} -m pip install numpy 
+!{sys.executable} -m pip install pandas 
+!{sys.executable} -m pip install selenium 
+
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
